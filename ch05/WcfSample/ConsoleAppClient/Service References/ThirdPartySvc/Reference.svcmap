@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="80ef0a85-ae39-499f-a785-144302746794" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:12345/services/thirdpartysvc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ThirdPartyWebSvc.wsdl" MetadataType="Wsdl" ID="8aa8c6af-f603-4141-ae88-ef0287963755" SourceId="1" SourceUrl="http://localhost:12345/services/thirdpartysvc?wsdl" />
+    <MetadataFile FileName="thirdpartysvc.xsd" MetadataType="Schema" ID="056eea34-ce3a-4df6-86f2-c9c7b80b0362" SourceId="1" SourceUrl="http://localhost:12345/services/thirdpartysvc?xsd=xsd2" />
+    <MetadataFile FileName="thirdpartysvc1.xsd" MetadataType="Schema" ID="a053950c-ea91-404f-baa4-1437f5bd33f9" SourceId="1" SourceUrl="http://localhost:12345/services/thirdpartysvc?xsd=xsd0" />
+    <MetadataFile FileName="thirdpartysvc2.xsd" MetadataType="Schema" ID="442c9bbf-2dc0-4121-8a61-137da2791853" SourceId="1" SourceUrl="http://localhost:12345/services/thirdpartysvc?xsd=xsd1" />
+    <MetadataFile FileName="thirdpartysvc.wsdl" MetadataType="Wsdl" ID="2d7ad0d6-f9a1-4daf-8d73-bd68d79b301b" SourceId="1" SourceUrl="http://localhost:12345/services/thirdpartysvc?wsdl=wsdl0" />
+    <MetadataFile FileName="thirdpartysvc.disco" MetadataType="Disco" ID="9423c6a8-43ff-4271-8a3d-f7277d161abb" SourceId="1" SourceUrl="http://localhost:12345/services/thirdpartysvc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

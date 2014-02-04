@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyService", "MyService\MyService.csproj", "{327340A6-D35D-417A-BEC7-5E9026FD4F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMessages", "MyMessages\MyMessages.csproj", "{F78D97E5-E2EE-4F7B-83AA-6C5A87FCF3A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{160C0128-88C0-49FE-B3C5-1CF54A7C7B64}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{327340A6-D35D-417A-BEC7-5E9026FD4F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327340A6-D35D-417A-BEC7-5E9026FD4F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327340A6-D35D-417A-BEC7-5E9026FD4F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327340A6-D35D-417A-BEC7-5E9026FD4F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78D97E5-E2EE-4F7B-83AA-6C5A87FCF3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78D97E5-E2EE-4F7B-83AA-6C5A87FCF3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78D97E5-E2EE-4F7B-83AA-6C5A87FCF3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78D97E5-E2EE-4F7B-83AA-6C5A87FCF3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
